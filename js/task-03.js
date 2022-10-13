@@ -36,6 +36,6 @@ getGalleryList.style.listStyle = 'none';
 getGalleryList.style.display = 'flex';
 
 const makeListImages = images.map(({ url, alt }) => 
-  `<li><img srс='${url}' alt='${alt}' width="100%" height="100%"></li>`).join('');
+  `<li><img src='${url}' alt='${alt}' width="100%" height="100%"></li>`).join('');
 
 getGalleryList.insertAdjacentHTML('afterbegin', makeListImages);
